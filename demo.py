@@ -13,7 +13,6 @@ import torchvision.transforms as transforms
 from PIL import Image
 from IPython.display import display, HTML, clear_output
 from ipywidgets import widgets, Layout
-from io import BytesIO
 
 from maskrcnn_benchmark.config import cfg
 from maskrcnn_benchmark.layers import nms
