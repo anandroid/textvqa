@@ -1,7 +1,786 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adc8f593-9e19-4fa7-92a5-3e27e36e2f71" name="Default Changelist" comment="" />
+    <list default="true" id="adc8f593-9e19-4fa7-92a5-3e27e36e2f71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/pythia/tests/tasks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/.circleci/cmake_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/.circleci/cmake_test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/.circleci/gcc_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/.circleci/gcc_test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/.circleci/pip_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/.circleci/pip_test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/.circleci/pull_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/.circleci/pull_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/.circleci/python_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/.circleci/python_test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/.circleci/run_locally.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/.circleci/run_locally.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/.circleci/setup_circleimg.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/.circleci/setup_circleimg.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/.circleci/setup_debian.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/.circleci/setup_debian.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/alignment/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/alignment/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/alignment/align.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/alignment/align.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/alignment/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/alignment/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/alignment/example.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/alignment/example.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/alignment/unsup_align.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/alignment/unsup_align.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/alignment/unsup_multialign.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/alignment/unsup_multialign.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/alignment/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/alignment/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/build/lib.linux-x86_64-3.5/fasttext_pybind.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/build/lib.linux-x86_64-3.5/fasttext_pybind.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/classification-example.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/classification-example.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/classification-results.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/classification-results.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/crawl/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/crawl/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/crawl/dedup.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/crawl/dedup.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/crawl/download_crawl.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/crawl/download_crawl.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/crawl/filter_dedup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/crawl/filter_dedup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/crawl/filter_utf8.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/crawl/filter_utf8.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/crawl/process_wet_file.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/crawl/process_wet_file.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/aligned-vectors.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/aligned-vectors.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/autotune.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/autotune.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/cheatsheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/cheatsheet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/crawl-vectors.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/crawl-vectors.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/dataset.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/dataset.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/english-vectors.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/english-vectors.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/faqs.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/faqs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/language-identification.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/language-identification.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/options.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/options.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/pretrained-vectors.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/pretrained-vectors.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/python-module.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/python-module.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/references.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/references.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/supervised-models.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/supervised-models.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/supervised-tutorial.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/supervised-tutorial.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/support.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/support.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/docs/unsupervised-tutorials.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/docs/unsupervised-tutorials.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/download_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/download_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/get-wikimedia.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/get-wikimedia.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/benchmarks/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/benchmarks/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/benchmarks/get_word_vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/benchmarks/get_word_vector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/doc/examples/FastTextEmbeddingBag.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/doc/examples/FastTextEmbeddingBag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/doc/examples/bin_to_vec.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/doc/examples/bin_to_vec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/doc/examples/compute_accuracy.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/doc/examples/compute_accuracy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/doc/examples/get_vocab.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/doc/examples/get_vocab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/doc/examples/train_supervised.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/doc/examples/train_supervised.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/doc/examples/train_unsupervised.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/doc/examples/train_unsupervised.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/fasttext_module/fasttext.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/fasttext_module/fasttext.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/fasttext_module/fasttext.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/fasttext_module/fasttext.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/fasttext_module/fasttext.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/fasttext_module/fasttext.egg-info/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/fasttext_module/fasttext.egg-info/not-zip-safe" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/fasttext_module/fasttext.egg-info/not-zip-safe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/fasttext_module/fasttext.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/fasttext_module/fasttext.egg-info/requires.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/fasttext_module/fasttext.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/fasttext_module/fasttext.egg-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/python/fasttext_module/fasttext_pybind.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/python/fasttext_module/fasttext_pybind.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/quantization-example.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/quantization-example.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/reduce_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/reduce_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/runtests.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/runtests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/scripts/kbcompletion/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/scripts/kbcompletion/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/scripts/kbcompletion/data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/scripts/kbcompletion/data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/scripts/kbcompletion/eval.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/scripts/kbcompletion/eval.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/scripts/kbcompletion/fb15k.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/scripts/kbcompletion/fb15k.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/scripts/kbcompletion/fb15k237.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/scripts/kbcompletion/fb15k237.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/scripts/kbcompletion/svo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/scripts/kbcompletion/svo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/scripts/kbcompletion/wn18.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/scripts/kbcompletion/wn18.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/scripts/quantization/quantization-results.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/scripts/quantization/quantization-results.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/args.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/args.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/args.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/args.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/autotune.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/autotune.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/autotune.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/autotune.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/densematrix.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/densematrix.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/densematrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/densematrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/dictionary.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/dictionary.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/dictionary.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/dictionary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/fasttext.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/fasttext.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/fasttext.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/fasttext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/loss.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/loss.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/loss.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/loss.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/main.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/matrix.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/matrix.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/meter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/meter.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/meter.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/meter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/model.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/model.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/model.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/model.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/productquantizer.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/productquantizer.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/productquantizer.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/productquantizer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/quantmatrix.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/quantmatrix.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/quantmatrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/quantmatrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/real.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/real.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/utils.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/utils.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/vector.cc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/vector.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/src/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/src/vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/tests/fetch_test_data.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/tests/fetch_test_data.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/blog/2016-08-18-blog-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/blog/2016-08-18-blog-post.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/blog/2017-05-02-blog-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/blog/2017-05-02-blog-post.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/blog/2017-10-02-blog-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/blog/2017-10-02-blog-post.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/blog/2019-06-25-blog-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/blog/2019-06-25-blog-post.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/core/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/core/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/pages/en/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/pages/en/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/sidebars.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/sidebars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/siteConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/siteConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/.classfasttext_1_1QMatrix-members.html.i4eKqy" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/.classfasttext_1_1QMatrix-members.html.i4eKqy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/annotated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/annotated_dup.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/annotated_dup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/args_8cc.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/args_8cc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/args_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/args_8h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/args_8h.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/args_8h.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/args_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/args_8h_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/bc_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/bc_s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/bdwn.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/bdwn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Args-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Args-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Args.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Args.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Args.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Args.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Dictionary-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Dictionary-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Dictionary.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Dictionary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Dictionary.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Dictionary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1FastText-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1FastText-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1FastText.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1FastText.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1FastText.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1FastText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Matrix-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Matrix-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Matrix.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Matrix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Matrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Matrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Model-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Model-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1ProductQuantizer-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1ProductQuantizer-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1ProductQuantizer.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1ProductQuantizer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1ProductQuantizer.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1ProductQuantizer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1QMatrix-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1QMatrix-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1QMatrix.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1QMatrix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1QMatrix.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1QMatrix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Vector-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Vector-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Vector.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Vector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/classfasttext_1_1Vector.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/classfasttext_1_1Vector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/closed.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/closed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/dictionary_8cc.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/dictionary_8cc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/dictionary_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/dictionary_8h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/dictionary_8h.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/dictionary_8h.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/dictionary_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/dictionary_8h_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/dir_68267d1309a1af8e8297ef4c3efbcdba.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/dir_68267d1309a1af8e8297ef4c3efbcdba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/dir_68267d1309a1af8e8297ef4c3efbcdba.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/dir_68267d1309a1af8e8297ef4c3efbcdba.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/doc.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/doc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/doxygen.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/doxygen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/doxygen.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/doxygen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/dynsections.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/dynsections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/fasttext_8cc.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/fasttext_8cc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/fasttext_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/fasttext_8h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/fasttext_8h.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/fasttext_8h.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/fasttext_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/fasttext_8h_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/files.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/files.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/folderclosed.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/folderclosed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/folderopen.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/folderopen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_0x7e.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_0x7e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_dup.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_dup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_g.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_g.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_h.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_i.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_i.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_k.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_k.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_l.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_l.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_m.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_m.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_n.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_n.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_o.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_o.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_p.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_p.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_q.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_q.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_r.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_r.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_s.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_s.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_t.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_t.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_u.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_u.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_v.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_v.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_vars.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_vars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_w.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_w.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/functions_z.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/functions_z.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/globals.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/globals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/globals_defs.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/globals_defs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/globals_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/globals_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/main_8cc.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/main_8cc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/main_8cc.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/main_8cc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/matrix_8cc.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/matrix_8cc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/matrix_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/matrix_8h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/matrix_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/matrix_8h_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/menudata.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/menudata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/model_8cc.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/model_8cc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/model_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/model_8h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/model_8h.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/model_8h.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/model_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/model_8h_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/namespacefasttext.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/namespacefasttext.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/namespacefasttext.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/namespacefasttext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/namespacefasttext_1_1utils.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/namespacefasttext_1_1utils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/namespacemembers.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/namespacemembers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/namespacemembers_enum.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/namespacemembers_enum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/namespacemembers_func.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/namespacemembers_func.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/namespacemembers_type.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/namespacemembers_type.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/namespaces.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/namespaces.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/namespaces.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/namespaces.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/nav_f.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/nav_f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/nav_g.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/nav_g.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/nav_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/nav_h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/navtree.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/navtree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/navtree.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/navtree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/navtreedata.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/navtreedata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/navtreeindex0.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/navtreeindex0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/navtreeindex1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/navtreeindex1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/open.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/open.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/productquantizer_8cc.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/productquantizer_8cc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/productquantizer_8cc.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/productquantizer_8cc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/productquantizer_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/productquantizer_8h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/productquantizer_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/productquantizer_8h_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/qmatrix_8cc.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/qmatrix_8cc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/qmatrix_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/qmatrix_8h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/qmatrix_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/qmatrix_8h_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/real_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/real_8h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/real_8h.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/real_8h.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/real_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/real_8h_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/.files_7.html.StRRNc" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/.files_7.html.StRRNc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/.variables_a.html.1MGQ27" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/.variables_a.html.1MGQ27" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_12.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_13.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_14.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_14.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_15.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_15.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_16.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_16.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_16.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_17.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_17.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_17.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_a.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_b.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/all_f.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/all_f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/classes_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/classes_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/defines_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/defines_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/defines_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/defines_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/defines_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/defines_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/defines_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/defines_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/defines_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/defines_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/defines_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/defines_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/defines_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/defines_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/defines_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/defines_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enums_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enums_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enums_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enums_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enums_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enums_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enums_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enums_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enums_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enums_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enums_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enums_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/enumvalues_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/enumvalues_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/files_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/files_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_12.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_13.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_14.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_14.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_15.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_15.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_16.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_16.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_16.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_17.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_17.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_17.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_a.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_b.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/functions_f.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/functions_f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/mag_sel.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/mag_sel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/namespaces_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/namespaces_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/namespaces_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/namespaces_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/nomatches.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/nomatches.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/search_l.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/search_l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/search_m.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/search_m.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/search_r.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/search_r.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/searchdata.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/searchdata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/typedefs_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/typedefs_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/typedefs_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/typedefs_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/typedefs_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/typedefs_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/typedefs_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/typedefs_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_0.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_11.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_12.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_12.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_13.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_13.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_3.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_4.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_5.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_6.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_7.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_8.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_a.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_a.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_b.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_b.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_c.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_c.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_d.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_d.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_e.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_e.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_f.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/search/variables_f.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/search/variables_f.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/splitbar.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/splitbar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/structfasttext_1_1Node-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/structfasttext_1_1Node-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/structfasttext_1_1Node.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/structfasttext_1_1Node.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/structfasttext_1_1Node.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/structfasttext_1_1Node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/structfasttext_1_1entry-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/structfasttext_1_1entry-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/structfasttext_1_1entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/structfasttext_1_1entry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/structfasttext_1_1entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/structfasttext_1_1entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/sync_off.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/sync_off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/sync_on.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/sync_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/tab_a.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/tab_a.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/tab_b.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/tab_b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/tab_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/tab_h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/tab_s.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/tab_s.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/utils_8cc.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/utils_8cc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/utils_8cc.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/utils_8cc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/utils_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/utils_8h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/utils_8h.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/utils_8h.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/utils_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/utils_8h_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/vector_8cc.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/vector_8cc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/vector_8cc.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/vector_8cc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/vector_8h.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/vector_8h.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/vector_8h.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/vector_8h.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/docs/en/html/vector_8h_source.html" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/docs/en/html/vector_8h_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/fasttext.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/fasttext.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/authors/armand_joulin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/authors/armand_joulin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/authors/christian_puhrsch.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/authors/christian_puhrsch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/authors/edouard_grave.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/authors/edouard_grave.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/authors/piotr_bojanowski.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/authors/piotr_bojanowski.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/authors/tomas_mikolov.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/authors/tomas_mikolov.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/blog/2016-08-18-blog-post-img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/blog/2016-08-18-blog-post-img1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/blog/2016-08-18-blog-post-img2.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/blog/2016-08-18-blog-post-img2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/blog/2017-05-02-blog-post-img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/blog/2017-05-02-blog-post-img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/blog/2017-05-02-blog-post-img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/blog/2017-05-02-blog-post-img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/blog/2017-10-02-blog-post-img1.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/blog/2017-10-02-blog-post-img1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/cbo_vs_skipgram.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/cbo_vs_skipgram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/fasttext-icon-api.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/fasttext-icon-api.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/fasttext-icon-bg-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/fasttext-icon-bg-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/fasttext-icon-color-square.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/fasttext-icon-color-square.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/fasttext-icon-color-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/fasttext-icon-color-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/fasttext-icon-faq.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/fasttext-icon-faq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/fasttext-icon-tutorial.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/fasttext-icon-tutorial.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/fasttext-icon-white-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/fasttext-icon-white-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/fasttext-logo-color-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/fasttext-logo-color-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/fasttext-logo-white-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/fasttext-logo-white-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/logo-color.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/logo-color.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/model-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/model-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/model-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/model-blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/model-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/model-red.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/ogimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/ogimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/img/oss_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/img/oss_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/website/static/tabber.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/website/static/tabber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/wikifil.pl" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/wikifil.pl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastText/word-vector-example.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/fastText/word-vector-example.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/answers_vqa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/model_data/answers_vqa.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/detectron/fc6/fc7_b.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/content/model_data/detectron/fc6/fc7_b.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/detectron/fc6/fc7_w.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/content/model_data/detectron/fc6/fc7_w.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/detectron_weights.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/content/model_data/detectron_weights.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/etectron_model.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/model_data/etectron_model.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/pythia.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/model_data/pythia.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_data/vocabulary_100k.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/model_data/vocabulary_100k.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/.github/ISSUE_TEMPLATE/bug-report.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/.github/ISSUE_TEMPLATE/bug-report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/.github/ISSUE_TEMPLATE/feature-request.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/.github/ISSUE_TEMPLATE/feature-request.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/.github/ISSUE_TEMPLATE/questions-help-support.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/.github/ISSUE_TEMPLATE/questions-help-support.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/captioning/coco/butd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/captioning/coco/butd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/captioning/coco/butd_beam_search.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/captioning/coco/butd_beam_search.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/captioning/coco/butd_nucleus_sampling.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/captioning/coco/butd_nucleus_sampling.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/clevr/cnn_lstm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/clevr/cnn_lstm.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/textvqa/ban.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/textvqa/ban.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/textvqa/lorra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/textvqa/lorra.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/textvqa/pythia.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/textvqa/pythia.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/vizwiz/ban.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/vizwiz/ban.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/vizwiz/lorra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/vizwiz/lorra.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/vizwiz/pythia.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/vizwiz/pythia.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/vqa2/ban.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/vqa2/ban.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/vqa2/lorra.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/vqa2/lorra.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/vqa2/lorra_train_and_val.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/vqa2/lorra_train_and_val.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/vqa2/pythia.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/vqa2/pythia.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/vqa2/pythia_12k_iterations_no_resnet.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/vqa2/pythia_12k_iterations_no_resnet.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/configs/vqa/vqa2/pythia_train_and_val.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/configs/vqa/vqa2/pythia_train_and_val.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/common/registry.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/common/registry.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/common/sample.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/common/sample.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/models/base_model.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/models/base_model.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/modules/losses.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/modules/losses.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/modules/metrics.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/modules/metrics.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/tasks/base_dataset.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/tasks/base_dataset.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/tasks/base_dataset_builder.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/tasks/base_dataset_builder.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/tasks/base_task.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/tasks/base_task.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/tasks/processors.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/tasks/processors.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/tutorials/challenge.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/tutorials/challenge.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/tutorials/concepts.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/tutorials/concepts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/tutorials/dataset.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/tutorials/dataset.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/tutorials/features.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/tutorials/features.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/tutorials/pretrained_models.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/tutorials/pretrained_models.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/tutorials/quickstart.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/tutorials/quickstart.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/docs/source/utils/text_utils.rst" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/docs/source/utils/text_utils.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/batch_collator.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/batch_collator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/defaults/configs/base.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/defaults/configs/base.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/defaults/configs/tasks/captioning/coco.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/defaults/configs/tasks/captioning/coco.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/defaults/configs/tasks/dialog/visdial.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/defaults/configs/tasks/dialog/visdial.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/defaults/configs/tasks/vqa/clevr.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/defaults/configs/tasks/vqa/clevr.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/defaults/configs/tasks/vqa/textvqa.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/defaults/configs/tasks/vqa/textvqa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/defaults/configs/tasks/vqa/visual_genome.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/defaults/configs/tasks/vqa/visual_genome.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/defaults/configs/tasks/vqa/vizwiz.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/defaults/configs/tasks/vqa/vizwiz.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/defaults/configs/tasks/vqa/vqa2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/defaults/configs/tasks/vqa/vqa2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/meter.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/meter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/registry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/report.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/task_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/task_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/common/test_reporter.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/common/test_reporter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/best_model/best_model_predict_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/best_model/best_model_predict_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/best_model/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/best_model/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/config/collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/config/collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/config/config_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/config/config_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/config/demo/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/config/demo/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/config/function_config_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/config/function_config_lib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/config/keep/MFH_ft.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/config/keep/MFH_ft.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/config/keep/detectron.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/config/keep/detectron.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/config/verbose/MFH_module.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/config/verbose/MFH_module.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/config/verbose/dectectron_finetune.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/config/verbose/dectectron_finetune.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/config/verbose/default.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/config/verbose/default.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/data_prep/data_preprocess.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/data_prep/data_preprocess.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/data_prep/vqa_v2.0/build_vqa_2.0_imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/data_prep/vqa_v2.0/build_vqa_2.0_imdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/data_prep/vqa_v2.0/download_vqa_2.0.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/data_prep/vqa_v2.0/download_vqa_2.0.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/data_prep/vqa_v2.0/extract_ques_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/data_prep/vqa_v2.0/extract_ques_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/data_prep/vqa_v2.0/extract_vocabulary.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/data_prep/vqa_v2.0/extract_vocabulary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/data_prep/vqa_v2.0/extract_word_glove_embedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/data_prep/vqa_v2.0/extract_word_glove_embedding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/data_prep/vqa_v2.0/genome_ids.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/data_prep/vqa_v2.0/genome_ids.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/data_prep/vqa_v2.0/process_answers.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/data_prep/vqa_v2.0/process_answers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/data_prep/vqa_v2.0/train_ids.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/data_prep/vqa_v2.0/train_ids.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/data_prep/vqa_v2.0/val_ids.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/data_prep/vqa_v2.0/val_ids.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/dataset_utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/dataset_utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/dataset_utils/create_imdb_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/dataset_utils/create_imdb_header.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/dataset_utils/dataSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/dataset_utils/dataSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/dataset_utils/text_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/dataset_utils/text_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/dataset_utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/dataset_utils/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/dataset_utils/vqa_collates.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/dataset_utils/vqa_collates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/dataset_utils/vqa_concate_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/dataset_utils/vqa_concate_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/dataset_utils/vqa_html_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/dataset_utils/vqa_html_writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/ensemble.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/ensemble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/eval_model/eval_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/eval_model/eval_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/eval_model/vqaEval.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/eval_model/vqaEval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/global_variables/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/global_variables/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/global_variables/global_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/global_variables/global_variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/info/code_structure_plot.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/info/code_structure_plot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/info/pythia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/info/pythia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/info/vqa_example.png" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/info/vqa_example.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/run_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/convert_VD_to_COCO_qa.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/convert_VD_to_COCO_qa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/convert_VG_to_COCO.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/convert_VG_to_COCO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/convert_VG_to_COCO_qa.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/convert_VG_to_COCO_qa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/convert_tsv_feature_to_indiv.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/convert_tsv_feature_to_indiv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/eval_ensemble_on_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/eval_ensemble_on_val.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/extract_detectron_weights.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/extract_detectron_weights.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/extract_minival_ids.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/extract_minival_ids.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/extract_visual_features_vgg_pool5.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/extract_visual_features_vgg_pool5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/generate_minival_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/generate_minival_annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/mirror_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/mirror_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/model_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/model_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/process_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/process_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/rename_genome_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/rename_genome_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/subset_val.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/subset_val.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/timer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/tools/visualize_bbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/tools/visualize_bbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/top_down_bottom_up/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/top_down_bottom_up/classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/top_down_bottom_up/image_attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/top_down_bottom_up/image_attention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/top_down_bottom_up/image_embedding.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/top_down_bottom_up/image_embedding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/top_down_bottom_up/image_feature_encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/top_down_bottom_up/image_feature_encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/top_down_bottom_up/intermediate_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/top_down_bottom_up/intermediate_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/top_down_bottom_up/multi_modal_combine.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/top_down_bottom_up/multi_modal_combine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/top_down_bottom_up/nonlinear_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/top_down_bottom_up/nonlinear_layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/top_down_bottom_up/post_combine_transform.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/top_down_bottom_up/post_combine_transform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/top_down_bottom_up/question_embeding.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/top_down_bottom_up/question_embeding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/top_down_bottom_up/top_down_bottom_up_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/top_down_bottom_up/top_down_bottom_up_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/top_down_bottom_up/unittests.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/top_down_bottom_up/unittests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/train_model/Engineer.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/train_model/Engineer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/train_model/Error_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/train_model/Error_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/train_model/Loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/train_model/Loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/train_model/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/train_model/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/train_model/dataset_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/train_model/dataset_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/train_model/eval_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/train_model/eval_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/train_model/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/train_model/evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/train_model/evaluate_with_ensemble.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/train_model/evaluate_with_ensemble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/train_model/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/train_model/helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/train_model/model_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/train_model/model_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/legacy/vqa_demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/legacy/vqa_demo.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/models/ban.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/models/ban.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/models/base_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/models/base_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/models/butd.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/models/butd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/models/cnn_lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/models/cnn_lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/models/lorra.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/models/lorra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/models/pythia.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/models/pythia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/models/top_down_bottom_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/models/top_down_bottom_up.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/models/visdial_multi_modal.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/models/visdial_multi_modal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/modules/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/modules/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/modules/attention.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/modules/attention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/modules/decoders.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/modules/decoders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/modules/embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/modules/embeddings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/modules/encoders.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/modules/encoders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/modules/fusions.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/modules/fusions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/modules/layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/modules/layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/modules/losses.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/modules/losses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/modules/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/modules/metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/scripts/coco/coco_caption_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/scripts/coco/coco_caption_eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/scripts/extract_vocabulary.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/scripts/extract_vocabulary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/scripts/features/extract_features.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/scripts/features/extract_features.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/scripts/features/extract_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/scripts/features/extract_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/scripts/features/extract_features_vmb.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/scripts/features/extract_features_vmb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/scripts/features/extract_resnet152_feat.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/scripts/features/extract_resnet152_feat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/scripts/features/extract_resnet_features.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/scripts/features/extract_resnet_features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/scripts/gqa/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/scripts/gqa/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/scripts/gqa/convert_gqa_to_vqa.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/scripts/gqa/convert_gqa_to_vqa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/base_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/base_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/base_dataset_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/base_dataset_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/base_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/base_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/captioning/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/captioning/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/captioning/captioning_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/captioning/captioning_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/captioning/coco/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/captioning/coco/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/captioning/coco/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/captioning/coco/builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/captioning/coco/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/captioning/coco/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/concat_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/concat_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/dialog/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/dialog/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/dialog/dialog_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/dialog/dialog_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/dialog/original.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/dialog/original.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/dialog/visdial/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/dialog/visdial/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/dialog/visdial/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/dialog/visdial/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/dialog/visdial/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/dialog/visdial/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/dialog/visdial/scripts/build_imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/dialog/visdial/scripts/build_imdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/dialog/visdial/scripts/extract_vocabulary.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/dialog/visdial/scripts/extract_vocabulary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/feature_readers.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/feature_readers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/features_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/features_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/image_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/image_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/multi_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/multi_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/samplers.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/samplers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/scene_graph_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/scene_graph_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/clevr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/clevr/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/clevr/builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/clevr/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/clevr/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/textvqa/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/textvqa/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/textvqa/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/textvqa/builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/textvqa/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/textvqa/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/visual_genome/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/visual_genome/builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/visual_genome/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/visual_genome/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/vizwiz/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/vizwiz/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/vizwiz/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/vizwiz/builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/vizwiz/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/vizwiz/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/vqa2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/vqa2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/vqa2/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/vqa2/builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/vqa2/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/vqa2/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/vqa2/ocr_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/vqa2/ocr_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/vqa2/ocr_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/vqa2/ocr_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/tasks/vqa/vqa_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/vqa_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/trainers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/trainers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/trainers/base_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/trainers/base_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/build_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/build_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/checkpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/checkpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/dataset_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/dataset_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/distributed_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/distributed_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/early_stopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/early_stopping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/flags.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/flags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/general.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/process_answers.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/process_answers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/text_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/text_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/timer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/pythia/utils/vocab.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/utils/vocab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/models/test_cnn_lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/models/test_cnn_lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/modules/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/pythia/tasks/vqa/clevr/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/modules/test_fusions.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/modules/test_fusions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/modules/test_layers.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/modules/test_layers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/modules/test_losses.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/modules/test_losses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/modules/test_metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/modules/test_metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/tasks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/modules/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/tasks/test_base_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/tasks/test_base_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/tasks/test_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/tasks/test_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/utils/test_general.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/utils/test_general.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/utils/test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/utils/test_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/utils/test_text_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/utils/test_text_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tests/utils/test_timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tests/utils/test_timer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tools/bert/extract_bert.sh" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tools/bert/extract_bert.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tools/bert/extract_bert_embeddings.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tools/bert/extract_bert_embeddings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythia/tools/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/pythia/tools/run.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,9 +789,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -31,6 +819,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
       </list>
     </option>
   </component>
@@ -52,6 +841,11 @@
               <item name="textvqa" type="b2602c69:ProjectViewProjectNode" />
               <item name="textvqa" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="textvqa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="textvqa" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -63,6 +857,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="google.kubernetes.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -86,24 +885,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582929365480</updated>
-      <workItem from="1582929366986" duration="407000" />
+      <workItem from="1582929366986" duration="3249000" />
     </task>
+    <task id="LOCAL-00001" summary="demo">
+      <created>1582965430953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582965430953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="407000" />
+    <option name="totallyTimeSpent" value="3249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -125,9 +932,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
