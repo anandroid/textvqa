@@ -2,7 +2,7 @@
 This is an implementation for vision and language multimodal research developed on top of Pythia 
 
 <a href="https://readthedocs.org/projects/learnpythia/">
-    <img width="30%" height="5%" alt="Pythia" src="https://i.imgur.com/wPgp4N4.png"/>
+    <img width="20%" height="2%" alt="Pythia" src="https://i.imgur.com/wPgp4N4.png"/>
 </a>
 
 
