@@ -1,3 +1,6 @@
+import sys
+sys.path.append('/content/pythia')
+sys.path.append('/content/vqa-maskrcnn-benchmark')
 import yaml
 import cv2
 import torch

@@ -2,263 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adc8f593-9e19-4fa7-92a5-3e27e36e2f71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_evaluate.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/_C.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/_C.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/config/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/config/defaults.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/config/paths_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/config/paths_catalog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/collate_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/collate_batch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/coco.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/concat_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/concat_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/evaluation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/evaluation/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/evaluation/coco/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/evaluation/coco/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/evaluation/coco/coco_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/evaluation/coco/coco_eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/evaluation/voc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/evaluation/voc/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/evaluation/voc/voc_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/evaluation/voc/voc_eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/list_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/list_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/voc.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/datasets/voc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/samplers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/samplers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/samplers/distributed.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/samplers/distributed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/samplers/grouped_batch_sampler.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/samplers/grouped_batch_sampler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/samplers/iteration_based_batch_sampler.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/samplers/iteration_based_batch_sampler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/transforms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/transforms/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/transforms/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/transforms/build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/transforms/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/data/transforms/transforms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/engine/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/engine/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/engine/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/engine/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/engine/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/engine/trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/batch_norm.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/batch_norm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/nms.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/nms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/roi_align.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/roi_align.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/roi_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/roi_pool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/smooth_l1_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/layers/smooth_l1_loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/backbone/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/backbone/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/backbone/backbone.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/backbone/backbone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/backbone/fpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/backbone/fpn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/backbone/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/backbone/resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/balanced_positive_negative_sampler.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/balanced_positive_negative_sampler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/box_coder.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/box_coder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/detector/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/detector/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/detector/detectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/detector/detectors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/detector/generalized_rcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/detector/generalized_rcnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/matcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/matcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/poolers.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/poolers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/registry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/box_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/box_head.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/roi_box_feature_extractors.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/roi_box_feature_extractors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/roi_box_predictors.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/box_head/roi_box_predictors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/mask_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/mask_head.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/roi_mask_feature_extractors.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/roi_mask_feature_extractors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/roi_mask_predictors.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/mask_head/roi_mask_predictors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/roi_heads.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/roi_heads/roi_heads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/rpn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/rpn/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/rpn/anchor_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/rpn/anchor_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/rpn/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/rpn/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/rpn/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/rpn/loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/rpn/rpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/rpn/rpn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/modeling/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/solver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/solver/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/solver/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/solver/build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/solver/lr_scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/solver/lr_scheduler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/structures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/structures/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/structures/bounding_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/structures/bounding_box.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/structures/boxlist_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/structures/boxlist_ops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/structures/image_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/structures/image_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/structures/segmentation_mask.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/structures/segmentation_mask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/c2_model_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/c2_model_loading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/checkpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/checkpoint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/collect_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/collect_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/comm.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/comm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/imports.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/metric_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/metric_logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/miscellaneous.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/miscellaneous.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/model_serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/model_serialization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/model_zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/model_zoo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/lib.linux-x86_64-3.5/maskrcnn_benchmark/utils/registry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/temp.linux-x86_64-3.5/home/anandkumar_kurapati/textvqa/content/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/cpu/ROIAlign_cpu.o" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/temp.linux-x86_64-3.5/home/anandkumar_kurapati/textvqa/content/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/cpu/ROIAlign_cpu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/temp.linux-x86_64-3.5/home/anandkumar_kurapati/textvqa/content/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/cpu/nms_cpu.o" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/temp.linux-x86_64-3.5/home/anandkumar_kurapati/textvqa/content/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/cpu/nms_cpu.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/temp.linux-x86_64-3.5/home/anandkumar_kurapati/textvqa/content/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/vision.o" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/build/temp.linux-x86_64-3.5/home/anandkumar_kurapati/textvqa/content/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/vision.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/caffe2/e2e_faster_rcnn_R_101_FPN_1x_caffe2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/caffe2/e2e_faster_rcnn_R_101_FPN_1x_caffe2.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/caffe2/e2e_faster_rcnn_R_50_C4_1x_caffe2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/caffe2/e2e_faster_rcnn_R_50_C4_1x_caffe2.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/caffe2/e2e_faster_rcnn_R_50_FPN_1x_caffe2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/caffe2/e2e_faster_rcnn_R_50_FPN_1x_caffe2.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/caffe2/e2e_faster_rcnn_X_101_32x8d_FPN_1x_caffe2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/caffe2/e2e_faster_rcnn_X_101_32x8d_FPN_1x_caffe2.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/caffe2/e2e_mask_rcnn_R_101_FPN_1x_caffe2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/caffe2/e2e_mask_rcnn_R_101_FPN_1x_caffe2.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/caffe2/e2e_mask_rcnn_R_50_C4_1x_caffe2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/caffe2/e2e_mask_rcnn_R_50_C4_1x_caffe2.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/caffe2/e2e_mask_rcnn_R_50_FPN_1x_caffe2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/caffe2/e2e_mask_rcnn_R_50_FPN_1x_caffe2.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/caffe2/e2e_mask_rcnn_X_101_32x8d_FPN_1x_caffe2.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/caffe2/e2e_mask_rcnn_X_101_32x8d_FPN_1x_caffe2.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/cityscapes/e2e_faster_rcnn_R_50_FPN_1x_cocostyle.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/cityscapes/e2e_faster_rcnn_R_50_FPN_1x_cocostyle.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/cityscapes/e2e_mask_rcnn_R_50_FPN_1x_cocostyle.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/cityscapes/e2e_mask_rcnn_R_50_FPN_1x_cocostyle.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/e2e_faster_rcnn_R_101_FPN_1x.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/e2e_faster_rcnn_R_101_FPN_1x.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/e2e_faster_rcnn_R_50_C4_1x.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/e2e_faster_rcnn_R_50_C4_1x.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/e2e_faster_rcnn_R_50_FPN_1x.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/e2e_faster_rcnn_R_50_FPN_1x.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/e2e_faster_rcnn_X_101_32x8d_FPN_1x.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/e2e_faster_rcnn_X_101_32x8d_FPN_1x.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/e2e_mask_rcnn_R_101_FPN_1x.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/e2e_mask_rcnn_R_101_FPN_1x.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/e2e_mask_rcnn_R_50_C4_1x.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/e2e_mask_rcnn_R_50_C4_1x.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/e2e_mask_rcnn_R_50_FPN_1x.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/e2e_mask_rcnn_R_50_FPN_1x.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/e2e_mask_rcnn_X_101_32x8d_FPN_1x.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/e2e_mask_rcnn_X_101_32x8d_FPN_1x.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/pascal_voc/e2e_faster_rcnn_R_50_C4_1x_1_gpu_voc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/pascal_voc/e2e_faster_rcnn_R_50_C4_1x_1_gpu_voc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/pascal_voc/e2e_faster_rcnn_R_50_C4_1x_4_gpu_voc.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/pascal_voc/e2e_faster_rcnn_R_50_C4_1x_4_gpu_voc.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/pascal_voc/e2e_mask_rcnn_R_50_FPN_1x_cocostyle.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/pascal_voc/e2e_mask_rcnn_R_50_FPN_1x_cocostyle.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/quick_schedules/e2e_faster_rcnn_R_50_C4_quick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/quick_schedules/e2e_faster_rcnn_R_50_C4_quick.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/quick_schedules/e2e_faster_rcnn_R_50_FPN_quick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/quick_schedules/e2e_faster_rcnn_R_50_FPN_quick.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/quick_schedules/e2e_faster_rcnn_X_101_32x8d_FPN_quick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/quick_schedules/e2e_faster_rcnn_X_101_32x8d_FPN_quick.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/quick_schedules/e2e_mask_rcnn_R_50_C4_quick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/quick_schedules/e2e_mask_rcnn_R_50_C4_quick.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/quick_schedules/e2e_mask_rcnn_R_50_FPN_quick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/quick_schedules/e2e_mask_rcnn_R_50_FPN_quick.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/quick_schedules/e2e_mask_rcnn_X_101_32x8d_FPN_quick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/quick_schedules/e2e_mask_rcnn_X_101_32x8d_FPN_quick.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/quick_schedules/rpn_R_50_C4_quick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/quick_schedules/rpn_R_50_C4_quick.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/quick_schedules/rpn_R_50_FPN_quick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/quick_schedules/rpn_R_50_FPN_quick.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/visual_genome_vqa/c2/modified_for_conversion_e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/visual_genome_vqa/c2/modified_for_conversion_e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/visual_genome_vqa/debug/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_vqa_single.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/visual_genome_vqa/debug/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_vqa_single.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/visual_genome_vqa/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/visual_genome_vqa/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_test.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/visual_genome_vqa/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_train.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/visual_genome_vqa/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_train.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/visual_genome_vqa/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_vqa_test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/visual_genome_vqa/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_vqa_test.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/visual_genome_vqa/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_vqa_train.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/visual_genome_vqa/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_vqa_train.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/visual_genome_vqa/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_vqa_val.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/configs/visual_genome_vqa/e2e_faster_rcnn_X-101-64x4d-FPN_1x_MLP_2048_FPN_512_vqa_val.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/Mask_R-CNN_demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/demo/Mask_R-CNN_demo.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/demo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo_e2e_mask_rcnn_R_50_FPN_1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/demo/demo_e2e_mask_rcnn_R_50_FPN_1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo_e2e_mask_rcnn_X_101_32x8d_FPN_1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/demo/demo_e2e_mask_rcnn_X_101_32x8d_FPN_1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/predictor.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/demo/predictor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/webcam.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/demo/webcam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-jupyter/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/docker/docker-jupyter/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-jupyter/jupyter_notebook_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/docker/docker-jupyter/jupyter_notebook_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark.egg-info/dependency_links.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark.egg-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/_C.cpython-35m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/_C.cpython-35m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/config/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/config/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/config/defaults.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/config/paths_catalog.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/config/paths_catalog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/csrc/ROIAlign.h" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/ROIAlign.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/csrc/ROIPool.h" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/ROIPool.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/csrc/cpu/ROIAlign_cpu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/cpu/ROIAlign_cpu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/csrc/cpu/nms_cpu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/cpu/nms_cpu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/csrc/cpu/vision.h" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/cpu/vision.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/csrc/cuda/ROIAlign_cuda.cu" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/cuda/ROIAlign_cuda.cu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/csrc/cuda/ROIPool_cuda.cu" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/cuda/ROIPool_cuda.cu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/csrc/cuda/nms.cu" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/cuda/nms.cu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/csrc/cuda/vision.h" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/cuda/vision.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/csrc/nms.h" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/nms.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/csrc/vision.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/csrc/vision.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/collate_batch.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/collate_batch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/datasets/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/datasets/coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/datasets/coco.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/datasets/concat_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/datasets/concat_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/datasets/evaluation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/datasets/evaluation/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/datasets/evaluation/coco/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/datasets/evaluation/coco/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/datasets/evaluation/coco/coco_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/datasets/evaluation/coco/coco_eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/datasets/evaluation/voc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/datasets/evaluation/voc/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/datasets/evaluation/voc/voc_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/datasets/evaluation/voc/voc_eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/datasets/list_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/datasets/list_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/datasets/voc.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/datasets/voc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/samplers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/samplers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/samplers/distributed.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/samplers/distributed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/samplers/grouped_batch_sampler.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/samplers/grouped_batch_sampler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/samplers/iteration_based_batch_sampler.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/samplers/iteration_based_batch_sampler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/transforms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/transforms/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/transforms/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/transforms/build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/data/transforms/transforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/data/transforms/transforms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/engine/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/engine/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/engine/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/engine/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/engine/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/engine/trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/layers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/layers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/layers/_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/layers/_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/layers/batch_norm.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/layers/batch_norm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/layers/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/layers/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/layers/nms.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/layers/nms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/layers/roi_align.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/layers/roi_align.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/layers/roi_pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/layers/roi_pool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/layers/smooth_l1_loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/layers/smooth_l1_loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/backbone/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/backbone/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/backbone/backbone.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/backbone/backbone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/backbone/fpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/backbone/fpn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/backbone/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/backbone/resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/balanced_positive_negative_sampler.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/balanced_positive_negative_sampler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/box_coder.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/box_coder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/detector/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/detector/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/detector/detectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/detector/detectors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/detector/generalized_rcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/detector/generalized_rcnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/matcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/matcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/poolers.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/poolers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/registry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/box_head/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/box_head/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/box_head/box_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/box_head/box_head.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/box_head/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/box_head/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/box_head/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/box_head/loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/box_head/roi_box_feature_extractors.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/box_head/roi_box_feature_extractors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/box_head/roi_box_predictors.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/box_head/roi_box_predictors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/mask_head/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/mask_head/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/mask_head/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/mask_head/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/mask_head/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/mask_head/loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/mask_head/mask_head.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/mask_head/mask_head.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/mask_head/roi_mask_feature_extractors.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/mask_head/roi_mask_feature_extractors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/mask_head/roi_mask_predictors.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/mask_head/roi_mask_predictors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/roi_heads/roi_heads.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/roi_heads/roi_heads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/rpn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/rpn/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/rpn/anchor_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/rpn/anchor_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/rpn/inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/rpn/inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/rpn/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/rpn/loss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/rpn/rpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/rpn/rpn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/modeling/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/modeling/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/solver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/solver/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/solver/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/solver/build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/solver/lr_scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/solver/lr_scheduler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/structures/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/structures/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/structures/bounding_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/structures/bounding_box.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/structures/boxlist_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/structures/boxlist_ops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/structures/image_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/structures/image_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/structures/segmentation_mask.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/structures/segmentation_mask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/c2_model_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/c2_model_loading.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/checkpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/checkpoint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/collect_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/collect_env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/comm.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/comm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/imports.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/metric_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/metric_logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/miscellaneous.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/miscellaneous.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/model_serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/model_serialization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/model_zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/model_zoo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maskrcnn_benchmark/utils/registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/registry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/checkpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/tests/checkpoint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_data_samplers.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/tests/test_data_samplers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_metric_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/tests/test_metric_logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/c2_to_pt.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/tools/c2_to_pt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cityscapes/convert_cityscapes_to_coco.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/tools/cityscapes/convert_cityscapes_to_coco.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cityscapes/instances2dict_with_polygons.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/tools/cityscapes/instances2dict_with_polygons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/extract_vqa_feat.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/tools/extract_vqa_feat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/test_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/tools/test_net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/train_net.py" beforeDir="false" afterPath="$PROJECT_DIR$/vqa-maskrcnn-benchmark/tools/train_net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/content/demo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,19 +14,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+        <entry file="file://$PROJECT_DIR$/content/vqa-maskrcnn-benchmark/main.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="410">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="345">
+                <caret line="23" column="117" selection-start-line="23" selection-start-column="117" selection-end-line="23" selection-end-column="117" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model_evaluate.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -299,6 +72,9 @@
       <list>
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/content/demo.py" />
+        <option value="$PROJECT_DIR$/model_evaluate.ipynb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -333,9 +109,12 @@
     <property name="settings.editor.selected.configurable" value="google.kubernetes.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/vqa-maskrcnn-benchmark" />
       <recent name="$PROJECT_DIR$/content" />
+      <recent name="$PROJECT_DIR$/vqa-maskrcnn-benchmark" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -360,7 +139,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582929365480</updated>
-      <workItem from="1582929366986" duration="3945000" />
+      <workItem from="1582929366986" duration="4561000" />
+      <workItem from="1585289432910" duration="1599000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <created>1582965430953</created>
@@ -376,24 +156,33 @@
       <option name="project" value="LOCAL" />
       <updated>1583047897563</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changing directories">
+      <created>1583048919469</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583048919469</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changing directories">
+      <created>1583049008004</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583049008004</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3945000" />
+    <option name="totallyTimeSpent" value="6160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -401,14 +190,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Google Cloud Storage" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32876712" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32876712" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Google Cloud Storage" order="3" show_stripe_button="false" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="R Graphics" order="5" />
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,16 +215,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="changing directories" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/content/vqa-maskrcnn-benchmark/main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/content/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
+    <entry file="file://$PROJECT_DIR$/content/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="410">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_evaluate.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="117" selection-start-line="23" selection-start-column="117" selection-end-line="23" selection-end-column="117" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
